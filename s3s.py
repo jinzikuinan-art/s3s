@@ -3,7 +3,7 @@
 # Based on splatnet2statink (ↄ) 2017-2024 eli fessler (frozenpandaman), clovervidia
 # https://github.com/frozenpandaman/s3s
 # License: GPLv3
-
+pip install -r requirements.txt
 import argparse, base64, datetime, json, os, shutil, re, sys, time, uuid
 from concurrent.futures import ThreadPoolExecutor
 from subprocess import call
